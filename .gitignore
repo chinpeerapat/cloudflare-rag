@@ -10,3 +10,5 @@ node_modules
 test-pdf.pdf
 .dev.envs
 debug.ts
+.env.template
+

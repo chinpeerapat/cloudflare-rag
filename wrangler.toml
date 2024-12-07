@@ -16,7 +16,7 @@ index_name = "cloudflare-rag-index"
 [[d1_databases]]
 binding = "DB"                                       
 database_name = "cloudflare-rag"
-database_id = "d81eb68d-95a3-45aa-8260-3e47f0ebe80a" # replace with your database id
+database_id = "9d5937e4-b425-4588-92b7-343b5e8d233b" # replace with your database id
 migrations_dir = "drizzle"
 
 [[r2_buckets]]
@@ -25,4 +25,4 @@ bucket_name = "cloudflare-rag-bucket"
 
 [[kv_namespaces]]
 binding = "rate_limiter"
-id = "71cc545e20644b7099d296c5c45ffe60" # replace with your KV id
+id = "96a2fd07a7464cae940560a328c06051" # replace with your KV id
