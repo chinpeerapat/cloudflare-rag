@@ -19,6 +19,7 @@ jobs:
     - name: Build project
       run: |
         if [ -f package.json ]; then
+          npm -g install pnpm
           pnpm install
           pnpm run build
         elif [ -f requirements.txt ]; then
